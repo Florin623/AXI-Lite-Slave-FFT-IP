@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FFT_8_Points_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FFT_8_Points_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="85.050 ns"></ZoomEndTime>
+      <Cursor1Time time="205.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="174"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/FFT_8_Points_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FFT_8_Points_TB/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="group69" type="group">
+      <obj_property name="label">Stage 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x0_r" type="array">
+         <obj_property name="ElementShortName">x0_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x0_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x0_i" type="array">
+         <obj_property name="ElementShortName">x0_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x0_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x1_r" type="array">
+         <obj_property name="ElementShortName">x1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x1_i" type="array">
+         <obj_property name="ElementShortName">x1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x2_r" type="array">
+         <obj_property name="ElementShortName">x2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x2_i" type="array">
+         <obj_property name="ElementShortName">x2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x3_r" type="array">
+         <obj_property name="ElementShortName">x3_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x3_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x3_i" type="array">
+         <obj_property name="ElementShortName">x3_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x3_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x4_r" type="array">
+         <obj_property name="ElementShortName">x4_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x4_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x4_i" type="array">
+         <obj_property name="ElementShortName">x4_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x4_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x5_r" type="array">
+         <obj_property name="ElementShortName">x5_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x5_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x5_i" type="array">
+         <obj_property name="ElementShortName">x5_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x5_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x6_r" type="array">
+         <obj_property name="ElementShortName">x6_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x6_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x6_i" type="array">
+         <obj_property name="ElementShortName">x6_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x6_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x7_r" type="array">
+         <obj_property name="ElementShortName">x7_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x7_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/x7_i" type="array">
+         <obj_property name="ElementShortName">x7_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x7_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/A1_r" type="array">
+         <obj_property name="ElementShortName">A1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/A1_i" type="array">
+         <obj_property name="ElementShortName">A1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/B1_r" type="array">
+         <obj_property name="ElementShortName">B1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/B1_i" type="array">
+         <obj_property name="ElementShortName">B1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/C1_r" type="array">
+         <obj_property name="ElementShortName">C1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">C1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/C1_i" type="array">
+         <obj_property name="ElementShortName">C1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">C1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/D1_r" type="array">
+         <obj_property name="ElementShortName">D1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">D1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/D1_i" type="array">
+         <obj_property name="ElementShortName">D1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">D1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/E1_r" type="array">
+         <obj_property name="ElementShortName">E1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">E1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/E1_i" type="array">
+         <obj_property name="ElementShortName">E1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">E1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/F1_r" type="array">
+         <obj_property name="ElementShortName">F1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">F1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/F1_i" type="array">
+         <obj_property name="ElementShortName">F1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">F1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/G1_r" type="array">
+         <obj_property name="ElementShortName">G1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">G1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/G1_i" type="array">
+         <obj_property name="ElementShortName">G1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">G1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/H1_r" type="array">
+         <obj_property name="ElementShortName">H1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">H1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_1/H1_i" type="array">
+         <obj_property name="ElementShortName">H1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">H1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group104" type="group">
+      <obj_property name="label">Stage 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/A1_r" type="array">
+         <obj_property name="ElementShortName">A1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/A1_i" type="array">
+         <obj_property name="ElementShortName">A1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/B1_r" type="array">
+         <obj_property name="ElementShortName">B1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/B1_i" type="array">
+         <obj_property name="ElementShortName">B1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/C1_r" type="array">
+         <obj_property name="ElementShortName">C1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">C1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/C1_i" type="array">
+         <obj_property name="ElementShortName">C1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">C1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/D1_r" type="array">
+         <obj_property name="ElementShortName">D1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">D1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/D1_i" type="array">
+         <obj_property name="ElementShortName">D1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">D1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/E1_r" type="array">
+         <obj_property name="ElementShortName">E1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">E1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/E1_i" type="array">
+         <obj_property name="ElementShortName">E1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">E1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/F1_r" type="array">
+         <obj_property name="ElementShortName">F1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">F1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/F1_i" type="array">
+         <obj_property name="ElementShortName">F1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">F1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/G1_r" type="array">
+         <obj_property name="ElementShortName">G1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">G1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/G1_i" type="array">
+         <obj_property name="ElementShortName">G1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">G1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/H1_r" type="array">
+         <obj_property name="ElementShortName">H1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">H1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/H1_i" type="array">
+         <obj_property name="ElementShortName">H1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">H1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/A2_r" type="array">
+         <obj_property name="ElementShortName">A2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/A2_i" type="array">
+         <obj_property name="ElementShortName">A2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/B2_r" type="array">
+         <obj_property name="ElementShortName">B2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/B2_i" type="array">
+         <obj_property name="ElementShortName">B2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/C2_r" type="array">
+         <obj_property name="ElementShortName">C2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">C2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/C2_i" type="array">
+         <obj_property name="ElementShortName">C2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">C2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/D2_r" type="array">
+         <obj_property name="ElementShortName">D2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">D2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/D2_i" type="array">
+         <obj_property name="ElementShortName">D2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">D2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/E2_r" type="array">
+         <obj_property name="ElementShortName">E2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">E2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/E2_i" type="array">
+         <obj_property name="ElementShortName">E2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">E2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/F2_r" type="array">
+         <obj_property name="ElementShortName">F2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">F2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/F2_i" type="array">
+         <obj_property name="ElementShortName">F2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">F2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/G2_r" type="array">
+         <obj_property name="ElementShortName">G2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">G2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/G2_i" type="array">
+         <obj_property name="ElementShortName">G2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">G2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/H2_r" type="array">
+         <obj_property name="ElementShortName">H2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">H2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_2/H2_i" type="array">
+         <obj_property name="ElementShortName">H2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">H2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group147" type="group">
+      <obj_property name="label">Stage 3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/A2_r" type="array">
+         <obj_property name="ElementShortName">A2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/A2_i" type="array">
+         <obj_property name="ElementShortName">A2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/B2_r" type="array">
+         <obj_property name="ElementShortName">B2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/B2_i" type="array">
+         <obj_property name="ElementShortName">B2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/C2_r" type="array">
+         <obj_property name="ElementShortName">C2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">C2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/C2_i" type="array">
+         <obj_property name="ElementShortName">C2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">C2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/D2_r" type="array">
+         <obj_property name="ElementShortName">D2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">D2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/D2_i" type="array">
+         <obj_property name="ElementShortName">D2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">D2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/E2_r" type="array">
+         <obj_property name="ElementShortName">E2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">E2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/E2_i" type="array">
+         <obj_property name="ElementShortName">E2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">E2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/F2_r" type="array">
+         <obj_property name="ElementShortName">F2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">F2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/F2_i" type="array">
+         <obj_property name="ElementShortName">F2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">F2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/G2_r" type="array">
+         <obj_property name="ElementShortName">G2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">G2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/G2_i" type="array">
+         <obj_property name="ElementShortName">G2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">G2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/H2_r" type="array">
+         <obj_property name="ElementShortName">H2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">H2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/H2_i" type="array">
+         <obj_property name="ElementShortName">H2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">H2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X1_r_product" type="array">
+         <obj_property name="ElementShortName">X1_r_product[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X1_r_product[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X1_i_product" type="array">
+         <obj_property name="ElementShortName">X1_i_product[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X1_i_product[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X3_r_product" type="array">
+         <obj_property name="ElementShortName">X3_r_product[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X3_r_product[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X3_i_product" type="array">
+         <obj_property name="ElementShortName">X3_i_product[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X3_i_product[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X5_r_product" type="array">
+         <obj_property name="ElementShortName">X5_r_product[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X5_r_product[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X5_i_product" type="array">
+         <obj_property name="ElementShortName">X5_i_product[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X5_i_product[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X7_r_product" type="array">
+         <obj_property name="ElementShortName">X7_r_product[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X7_r_product[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X7_i_product" type="array">
+         <obj_property name="ElementShortName">X7_i_product[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X7_i_product[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X0_r" type="array">
+         <obj_property name="ElementShortName">X0_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X0_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X0_i" type="array">
+         <obj_property name="ElementShortName">X0_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X0_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X1_r" type="array">
+         <obj_property name="ElementShortName">X1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X1_i" type="array">
+         <obj_property name="ElementShortName">X1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X2_r" type="array">
+         <obj_property name="ElementShortName">X2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X2_i" type="array">
+         <obj_property name="ElementShortName">X2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X3_r" type="array">
+         <obj_property name="ElementShortName">X3_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X3_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X3_i" type="array">
+         <obj_property name="ElementShortName">X3_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X3_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X4_r" type="array">
+         <obj_property name="ElementShortName">X4_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X4_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X4_i" type="array">
+         <obj_property name="ElementShortName">X4_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X4_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X5_r" type="array">
+         <obj_property name="ElementShortName">X5_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X5_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X5_i" type="array">
+         <obj_property name="ElementShortName">X5_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X5_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X6_r" type="array">
+         <obj_property name="ElementShortName">X6_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X6_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X6_i" type="array">
+         <obj_property name="ElementShortName">X6_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X6_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X7_r" type="array">
+         <obj_property name="ElementShortName">X7_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X7_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FFT_8_Points_TB/DUT/stage_3/X7_i" type="array">
+         <obj_property name="ElementShortName">X7_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X7_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

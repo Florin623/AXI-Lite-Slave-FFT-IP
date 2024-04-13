@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+Block Memory Generator module Block_Design_TB.DUT.Block_Design_i.microblaze_0_local_memory.lmb_bram.inst.\native_mem_mapped_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance Block_Design_TB.DUT.Block_Design_i.clk_wiz_0.inst.mmcm_adv_inst 
+Block Memory Generator module Block_Design_TB.DUT.Block_Design_i.microblaze_0_local_memory.lmb_bram.inst.\native_mem_mapped_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance Block_Design_TB.DUT.Block_Design_i.clk_wiz_0.inst.mmcm_adv_inst 
+$stop called at time : 59995 ns : File "D:/Proiect_3/Block_Design/Block_Design.srcs/sim_1/new/Block_Design_TB.v" Line 26
+Block Memory Generator module Block_Design_TB.DUT.Block_Design_i.microblaze_0_local_memory.lmb_bram.inst.\native_mem_mapped_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance Block_Design_TB.DUT.Block_Design_i.clk_wiz_0.inst.mmcm_adv_inst 
+$stop called at time : 59995 ns : File "D:/Proiect_3/Block_Design/Block_Design.srcs/sim_1/new/Block_Design_TB.v" Line 26

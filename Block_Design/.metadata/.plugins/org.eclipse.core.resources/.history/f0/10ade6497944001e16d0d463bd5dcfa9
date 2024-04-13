@@ -1,0 +1,92 @@
+#include "stdio.h"
+#include "platform.h"
+#include "xil_printf.h"
+#include "xuartlite.h"
+#include "FFT_8_Points_IP.h"
+#include "xparameters.h"
+#include "xil_io.h"
+
+//#define uart_id XPAR_UARTLITE_0_DEVICE_ID
+
+int main() {
+	//XUartLite uart;
+	//XUartLite_Initialize(&uart, uart_id);
+	print("Let's go!\n\r");
+    //init_platform();
+
+    int x0_r;
+    int x0_i;
+    int x1_r;
+    int x1_i;
+    int x2_r;
+    int x2_i;
+    int x3_r;
+    int x3_i;
+    int x4_r;
+    int x4_i;
+    int x5_r;
+    int x5_i;
+    int x6_r;
+    int x6_i;
+    int x7_r;
+    int x7_i;
+
+    // x(n) = {0, 1, 2, 3, 4, 5, 6, 7}
+    x0_r = 0; 		// 32'b00000000_00000000_00000000_00000000    0.0
+    x0_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x1_r = 256;		// 32'b00000000_00000000_00000001_00000000    1.0
+    x1_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x2_r = 512;		// 32'b00000000_00000000_00000010_00000000    2.0
+    x2_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x3_r = 768;		// 32'b00000000_00000000_00000011_00000000    3.0
+    x3_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x4_r = 1024;	// 32'b00000000_00000000_00000100_00000000    4.0
+    x4_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x5_r = 1280;	// 32'b00000000_00000000_00000101_00000000    5.0
+    x5_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x6_r = 1536;	// 32'b00000000_00000000_00000110_00000000    6.0
+    x6_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x7_r = 1792;	// 32'b00000000_00000000_00000111_00000000    7.0
+    x7_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 0, x0_r);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 4, x0_i);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 8, x1_r);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 12, x1_i);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 16, x2_r);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 20, x2_i);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 24, x3_r);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 28, x3_i);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 32, x4_r);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 36, x4_i);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 40, x5_r);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 44, x5_i);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 48, x6_r);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 52, x6_i);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 56, x7_r);
+    FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 60, x7_i);
+
+    for (int i = 0; i < 500000; i++);
+
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 64);		// X0_r
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 68);		// X0_i
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 72);		// X1_r
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 76);		// X1_i
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 80);		// X2_r
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 84);		// X2_i
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 88);		// X3_r
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 92);		// X3_i
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 96);		// X4_r
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 100);		// X4_i
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 104);		// X5_r
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 108);		// X5_i
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 112);		// X6_r
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 116);		// X6_i
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 120);		// X7_r
+    FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 124);		// X7_i
+
+    print("Hello World\n\r");
+    print("Successfully ran Hello World application");
+    //cleanup_platform();
+    return 0;
+}

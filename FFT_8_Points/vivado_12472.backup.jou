@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Sun Aug 27 16:44:19 2023
+# Process ID: 12472
+# Current directory: D:/Proiect_3/FFT_8_Points
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16904 D:\Proiect_3\FFT_8_Points\FFT_8_Points.xpr
+# Log file: D:/Proiect_3/FFT_8_Points/vivado.log
+# Journal file: D:/Proiect_3/FFT_8_Points\vivado.jou
+# Running On: DESKTOP-7P0D6RH, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16836 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Proiect_3/FFT_8_Points/FFT_8_Points.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+launch_simulation
+source FFT_8_Points_TB.tcl
+current_wave_config {Untitled 1}
+add_wave {{/FFT_8_Points_TB/DUT/A1_r}} {{/FFT_8_Points_TB/DUT/A1_i}} {{/FFT_8_Points_TB/DUT/B1_r}} {{/FFT_8_Points_TB/DUT/B1_i}} {{/FFT_8_Points_TB/DUT/C1_r}} {{/FFT_8_Points_TB/DUT/C1_i}} {{/FFT_8_Points_TB/DUT/D1_r}} {{/FFT_8_Points_TB/DUT/D1_i}} {{/FFT_8_Points_TB/DUT/E1_r}} {{/FFT_8_Points_TB/DUT/E1_i}} {{/FFT_8_Points_TB/DUT/F1_r}} {{/FFT_8_Points_TB/DUT/F1_i}} {{/FFT_8_Points_TB/DUT/G1_r}} {{/FFT_8_Points_TB/DUT/G1_i}} {{/FFT_8_Points_TB/DUT/H1_r}} {{/FFT_8_Points_TB/DUT/H1_i}} {{/FFT_8_Points_TB/DUT/A2_r}} {{/FFT_8_Points_TB/DUT/A2_i}} {{/FFT_8_Points_TB/DUT/B2_r}} {{/FFT_8_Points_TB/DUT/B2_i}} {{/FFT_8_Points_TB/DUT/C2_r}} {{/FFT_8_Points_TB/DUT/C2_i}} {{/FFT_8_Points_TB/DUT/D2_r}} {{/FFT_8_Points_TB/DUT/D2_i}} {{/FFT_8_Points_TB/DUT/E2_r}} {{/FFT_8_Points_TB/DUT/E2_i}} {{/FFT_8_Points_TB/DUT/F2_r}} {{/FFT_8_Points_TB/DUT/F2_i}} {{/FFT_8_Points_TB/DUT/G2_r}} {{/FFT_8_Points_TB/DUT/G2_i}} {{/FFT_8_Points_TB/DUT/H2_r}} {{/FFT_8_Points_TB/DUT/H2_i}} 
+restart
+run all
+close_sim

@@ -1,0 +1,52 @@
+timestamp=[2023-08-25 02:25:27], mode=WORKBENCH_START, duration=0:00:11.350, duration_ms=11350, data={}
+timestamp=[2023-08-25 02:25:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.021, duration_ms=21, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-08-25 02:25:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.485, duration_ms=485, data={}
+timestamp=[2023-08-25 02:27:09], mode=WORKBENCH_START, duration=0:00:15.358, duration_ms=15358, data={}
+timestamp=[2023-08-25 02:27:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.337, duration_ms=337, data={editors_count=1, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2023-08-25 02:27:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.421, duration_ms=421, data={}
+timestamp=[2023-08-25 02:31:17], mode=APP_CREATION, duration=0:00:03.805, duration_ms=3805, data={name=P3_Software, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=Block_Design_wrapper, application_type=application}
+timestamp=[2023-08-25 02:51:46], mode=PLATFORM_GENERATION, duration=0:00:07.559, duration_ms=7559, data={name=Block_Design_wrapper}
+timestamp=[2023-08-26 23:28:54], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.563, duration_ms=563, data={}
+timestamp=[2023-08-26 23:29:07], mode=WORKBENCH_START, duration=0:00:23.317, duration_ms=23317, data={}
+timestamp=[2023-08-26 23:29:07], mode=WORKBENCH_UI_INIT, duration=0:00:00.326, duration_ms=326, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Block_Design_wrapper,P3_Software,P3_Software_system,RemoteSystemsTempFiles}
+timestamp=[2023-08-26 23:56:06], mode=BUILD, duration=0:00:02.103, duration_ms=2103, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-26 23:56:30], mode=BUILD, duration=0:00:00.135, duration_ms=135, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-26 23:56:31], mode=BUILD, duration=0:00:00.184, duration_ms=184, data={name=P3_Software_system, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 01:32:40], mode=BUILD, duration=0:00:01.317, duration_ms=1317, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 01:38:41], mode=BUILD, duration=0:00:00.133, duration_ms=133, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 01:55:59], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 02:33:17], mode=BUILD, duration=0:00:01.124, duration_ms=1124, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 02:43:10], mode=BUILD, duration=0:00:00.569, duration_ms=569, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 03:20:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.264, duration_ms=264, data={}
+timestamp=[2023-08-27 03:20:25], mode=WORKBENCH_START, duration=0:00:07.506, duration_ms=7506, data={}
+timestamp=[2023-08-27 03:20:25], mode=WORKBENCH_UI_INIT, duration=0:00:00.272, duration_ms=272, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Block_Design_wrapper,P3_Software,P3_Software_system,RemoteSystemsTempFiles}
+timestamp=[2023-08-27 03:21:08], mode=BUILD, duration=0:00:01.081, duration_ms=1081, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 04:03:33], mode=WORKBENCH_START, duration=0:00:04.721, duration_ms=4721, data={}
+timestamp=[2023-08-27 04:03:33], mode=WORKBENCH_UI_INIT, duration=0:00:00.302, duration_ms=302, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Block_Design_wrapper,P3_Software,P3_Software_system,RemoteSystemsTempFiles}
+timestamp=[2023-08-27 04:03:34], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.299, duration_ms=299, data={}
+timestamp=[2023-08-27 04:44:46], mode=BUILD, duration=0:00:01.068, duration_ms=1068, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 04:44:50], mode=BUILD, duration=0:00:00.106, duration_ms=106, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 05:14:37], mode=BUILD, duration=0:00:01.171, duration_ms=1171, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 05:15:18], mode=BUILD, duration=0:00:00.133, duration_ms=133, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 05:26:47], mode=BUILD, duration=0:00:00.558, duration_ms=558, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 05:49:49], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 05:58:52], mode=BUILD, duration=0:00:01.159, duration_ms=1159, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 06:20:34], mode=BUILD, duration=0:00:00.991, duration_ms=991, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 06:29:05], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 15:28:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.379, duration_ms=379, data={}
+timestamp=[2023-08-27 15:28:14], mode=WORKBENCH_START, duration=0:00:06.580, duration_ms=6580, data={}
+timestamp=[2023-08-27 15:28:14], mode=WORKBENCH_UI_INIT, duration=0:00:00.318, duration_ms=318, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Block_Design_wrapper,P3_Software,P3_Software_system,RemoteSystemsTempFiles}
+timestamp=[2023-08-27 15:53:52], mode=BUILD, duration=0:00:01.331, duration_ms=1331, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 15:56:25], mode=BUILD, duration=0:00:00.560, duration_ms=560, data={name=P3_Software, configuration=Debug, clean_build=false}
+timestamp=[2023-08-27 18:14:37], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.329, duration_ms=329, data={}
+timestamp=[2023-08-27 18:15:41], mode=WORKBENCH_START, duration=0:01:12.843, duration_ms=72843, data={}
+timestamp=[2023-08-27 18:15:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.457, duration_ms=457, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Block_Design_wrapper,P3_Software,P3_Software_system,RemoteSystemsTempFiles}
+timestamp=[2023-08-28 23:24:09], mode=WORKBENCH_START, duration=0:00:06.379, duration_ms=6379, data={}
+timestamp=[2023-08-28 23:24:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.228, duration_ms=228, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Block_Design_wrapper,P3_Software,P3_Software_system,RemoteSystemsTempFiles}
+timestamp=[2023-08-28 23:24:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.509, duration_ms=509, data={}
+timestamp=[2023-08-29 10:44:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.335, duration_ms=335, data={}
+timestamp=[2023-08-29 10:45:01], mode=WORKBENCH_START, duration=0:00:10.362, duration_ms=10362, data={}
+timestamp=[2023-08-29 10:45:01], mode=WORKBENCH_UI_INIT, duration=0:00:00.324, duration_ms=324, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Block_Design_wrapper,P3_Software,P3_Software_system,RemoteSystemsTempFiles}
+timestamp=[2023-08-29 11:33:30], mode=WORKBENCH_START, duration=0:00:05.378, duration_ms=5378, data={}
+timestamp=[2023-08-29 11:33:31], mode=WORKBENCH_UI_INIT, duration=0:00:00.454, duration_ms=454, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Block_Design_wrapper,P3_Software,P3_Software_system,RemoteSystemsTempFiles}
+timestamp=[2023-08-29 11:33:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.338, duration_ms=338, data={}

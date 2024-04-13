@@ -1,0 +1,135 @@
+#include "stdio.h"
+#include "platform.h"
+#include "xil_printf.h"
+#include "xuartlite.h"
+#include "FFT_8_Points_IP.h"
+#include "xparameters.h"
+#include "xil_io.h"
+
+//#define uart_id XPAR_UARTLITE_0_DEVICE_ID
+
+void Write_and_Read(
+	int x0_r,
+	int x0_i,
+	int x1_r,
+	int x1_i,
+	int x2_r,
+	int x2_i,
+	int x3_r,
+	int x3_i,
+	int x4_r,
+	int x4_i,
+	int x5_r,
+	int x5_i,
+	int x6_r,
+	int x6_i,
+	int x7_r,
+	int x7_i) {
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 0, x0_r);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 4, x0_i);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 8, x1_r);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 12, x1_i);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 16, x2_r);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 20, x2_i);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 24, x3_r);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 28, x3_i);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 32, x4_r);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 36, x4_i);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 40, x5_r);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 44, x5_i);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 48, x6_r);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 52, x6_i);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 56, x7_r);
+		FFT_8_POINTS_IP_mWriteReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 60, x7_i);
+
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 64);		// X0_r
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 68);		// X0_i
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 72);		// X1_r
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 76);		// X1_i
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 80);		// X2_r
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 84);		// X2_i
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 88);		// X3_r
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 92);		// X3_i
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 96);		// X4_r
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 100);		// X4_i
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 104);		// X5_r
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 108);		// X5_i
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 112);		// X6_r
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 116);		// X6_i
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 120);		// X7_r
+		FFT_8_POINTS_IP_mReadReg(XPAR_FFT_8_POINTS_IP_0_S00_AXI_BASEADDR, 124);		// X7_i
+}
+
+
+int main() {
+	//XUartLite uart;
+	//XUartLite_Initialize(&uart, uart_id);
+	print("Let's go!\n\r");
+
+    int x0_r;
+    int x0_i;
+    int x1_r;
+    int x1_i;
+    int x2_r;
+    int x2_i;
+    int x3_r;
+    int x3_i;
+    int x4_r;
+    int x4_i;
+    int x5_r;
+    int x5_i;
+    int x6_r;
+    int x6_i;
+    int x7_r;
+    int x7_i;
+
+    // x(n) = {0, 1, 2, 3, 4, 5, 6, 7}
+    x0_r = 0; 		// 32'b00000000_00000000_00000000_00000000    0.0
+    x0_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x1_r = 256;		// 32'b00000000_00000000_00000001_00000000    1.0
+    x1_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x2_r = 512;		// 32'b00000000_00000000_00000010_00000000    2.0
+    x2_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x3_r = 768;		// 32'b00000000_00000000_00000011_00000000    3.0
+    x3_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x4_r = 1024;	// 32'b00000000_00000000_00000100_00000000    4.0
+    x4_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x5_r = 1280;	// 32'b00000000_00000000_00000101_00000000    5.0
+    x5_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x6_r = 1536;	// 32'b00000000_00000000_00000110_00000000    6.0
+    x6_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+    x7_r = 1792;	// 32'b00000000_00000000_00000111_00000000    7.0
+    x7_i = 0;		// 32'b00000000_00000000_00000000_00000000	  0.0
+
+    Write_and_Read(x0_r, x0_i, x1_r, x1_i, x2_r, x2_i, x3_r, x3_i, x4_r, x4_i, x5_r, x5_i, x6_r, x6_i, x7_r, x7_i);
+
+    /* x(n) = {4.56 + 3*j
+     	 	   10.29 – 8*j
+      	  	   7.77 – 5.4*j
+       	   	   3.141 + 6.666*j
+       	   	   0 - 7.89*j
+       	   	   5.55 + 1.337*j
+      	  	  -18.12 - 14.87*j
+      	  	  -47.57 - 12.345*j}*/
+
+    x0_r = 1167; 	// 32'b00000000_00000000_00000100_10001111    4.56
+    x0_i = 768;  	// 32'b00000000_00000000_00000011_00000000    3
+    x1_r = 2634; 	// 32'b00000000_00000000_00001010_01001010    10.29
+    x1_i = 63488;	// 32'b00000000_00000000_11111000_00000000    -8
+    x2_r = 1989;	// 32'b00000000_00000000_00000111_11000101    7.77
+    x2_i = 64153;	// 32'b00000000_00000000_11111010_10011001    -5.4
+    x3_r = 804;		// 32'b00000000_00000000_00000011_00100100    3.141
+    x3_i = 1706;	// 32'b00000000_00000000_00000110_10101010    6.666
+    x4_r = 0;		// 32'b00000000_00000000_00000000_00000000    0
+    x4_i = 63516;	// 32'b00000000_00000000_11111000_00011100    -7.89
+    x5_r = 1420;	// 32'b00000000_00000000_00000101_10001100    5.55
+    x5_i = 342;		// 32'b00000000_00000000_00000001_01010110    1.337
+    x6_r = 60897;	// 32'b00000000_00000000_11101101_11100001    -18.12
+    x6_i = 61729;	// 32'b00000000_00000000_11110001_00100001    -14.87
+    x7_r = 53358;	// 32'b00000000_00000000_11010000_01101110    -47.57
+    x7_i = 62375;	// 32'b00000000_00000000_11110011_10100111    -12.345
+
+    print("Hello World\n\r");
+    print("Successfully ran Hello World application");
+    return 0;
+}

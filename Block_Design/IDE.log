@@ -1,0 +1,117 @@
+02:25:18 DEBUG : Logs will be stored at 'D:/Proiect_3/Block_Design/IDE.log'.
+02:25:28 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Proiect_3\Block_Design\temp_xsdb_launch_script.tcl
+02:25:28 INFO  : Registering command handlers for Vitis TCF services
+02:25:28 INFO  : Platform repository initialization has completed.
+02:25:31 INFO  : XSCT server has started successfully.
+02:25:32 INFO  : Successfully done setting XSCT server connection channel  
+02:25:32 INFO  : plnx-install-location is set to ''
+02:25:32 INFO  : Successfully done query RDI_DATADIR 
+02:25:32 INFO  : Successfully done setting workspace for the tool. 
+02:26:56 DEBUG : Logs will be stored at 'D:/Proiect_3/Block_Design/IDE.log'.
+02:27:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Proiect_3\Block_Design\temp_xsdb_launch_script.tcl
+02:27:10 INFO  : Registering command handlers for Vitis TCF services
+02:27:10 INFO  : Platform repository initialization has completed.
+02:27:10 INFO  : XSCT server has started successfully.
+02:27:10 INFO  : Successfully done setting XSCT server connection channel  
+02:27:10 INFO  : plnx-install-location is set to ''
+02:27:10 INFO  : Successfully done query RDI_DATADIR 
+02:27:10 INFO  : Successfully done setting workspace for the tool. 
+02:31:15 INFO  : Result from executing command 'getProjects': Block_Design_wrapper
+02:31:15 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|D:/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+02:31:15 WARN  : An unexpected exception occurred in the module 'platform project logging'
+02:31:16 INFO  : Platform 'Block_Design_wrapper' is added to custom repositories.
+02:31:18 INFO  : Platform 'Block_Design_wrapper' is added to custom repositories.
+02:33:07 INFO  : Hardware specification for platform project 'Block_Design_wrapper' is updated.
+02:51:46 INFO  : Result from executing command 'getProjects': Block_Design_wrapper
+02:51:46 INFO  : Result from executing command 'getPlatforms': Block_Design_wrapper|D:/Proiect_3/Block_Design/Block_Design_wrapper/export/Block_Design_wrapper/Block_Design_wrapper.xpfm;xilinx_zcu102_base_202310_1|D:/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+23:28:48 DEBUG : Logs will be stored at 'D:/Proiect_3/Block_Design/IDE.log'.
+23:28:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Proiect_3\Block_Design\temp_xsdb_launch_script.tcl
+23:28:54 INFO  : XSCT server has started successfully.
+23:28:54 INFO  : plnx-install-location is set to ''
+23:28:54 INFO  : Successfully done setting XSCT server connection channel  
+23:28:54 INFO  : Successfully done setting workspace for the tool. 
+23:28:54 INFO  : Platform repository initialization has completed.
+23:29:07 INFO  : Registering command handlers for Vitis TCF services
+23:29:09 INFO  : Successfully done query RDI_DATADIR 
+23:56:03 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+23:56:30 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+01:32:39 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+01:38:41 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+01:55:59 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+02:33:16 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+02:43:10 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+03:20:20 DEBUG : Logs will be stored at 'D:/Proiect_3/Block_Design/IDE.log'.
+03:20:20 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Proiect_3\Block_Design\temp_xsdb_launch_script.tcl
+03:20:22 INFO  : XSCT server has started successfully.
+03:20:22 INFO  : Successfully done setting XSCT server connection channel  
+03:20:22 INFO  : plnx-install-location is set to ''
+03:20:22 INFO  : Successfully done setting workspace for the tool. 
+03:20:23 INFO  : Platform repository initialization has completed.
+03:20:25 INFO  : Registering command handlers for Vitis TCF services
+03:20:26 INFO  : Successfully done query RDI_DATADIR 
+03:21:06 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+04:03:30 DEBUG : Logs will be stored at 'D:/Proiect_3/Block_Design/IDE.log'.
+04:03:31 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Proiect_3\Block_Design\temp_xsdb_launch_script.tcl
+04:03:33 INFO  : XSCT server has started successfully.
+04:03:33 INFO  : Successfully done setting XSCT server connection channel  
+04:03:33 INFO  : plnx-install-location is set to ''
+04:03:33 INFO  : Successfully done setting workspace for the tool. 
+04:03:34 INFO  : Registering command handlers for Vitis TCF services
+04:03:34 INFO  : Successfully done query RDI_DATADIR 
+04:03:34 INFO  : Platform repository initialization has completed.
+04:44:45 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+04:44:50 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+05:14:36 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+05:15:18 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+05:26:46 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+05:49:49 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+05:58:50 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+06:20:33 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+06:29:04 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+15:28:10 DEBUG : Logs will be stored at 'D:/Proiect_3/Block_Design/IDE.log'.
+15:28:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Proiect_3\Block_Design\temp_xsdb_launch_script.tcl
+15:28:12 INFO  : XSCT server has started successfully.
+15:28:12 INFO  : plnx-install-location is set to ''
+15:28:12 INFO  : Successfully done setting XSCT server connection channel  
+15:28:12 INFO  : Successfully done setting workspace for the tool. 
+15:28:13 INFO  : Platform repository initialization has completed.
+15:28:14 INFO  : Registering command handlers for Vitis TCF services
+15:28:14 INFO  : Successfully done query RDI_DATADIR 
+15:53:51 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+15:56:25 INFO  : Checking for BSP changes to sync application flags for project 'P3_Software'...
+18:14:31 DEBUG : Logs will be stored at 'D:/Proiect_3/Block_Design/IDE.log'.
+18:14:32 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Proiect_3\Block_Design\temp_xsdb_launch_script.tcl
+18:14:35 INFO  : XSCT server has started successfully.
+18:14:35 INFO  : Successfully done setting XSCT server connection channel  
+18:14:35 INFO  : plnx-install-location is set to ''
+18:14:35 INFO  : Successfully done setting workspace for the tool. 
+18:14:37 INFO  : Platform repository initialization has completed.
+18:15:41 INFO  : Registering command handlers for Vitis TCF services
+18:15:42 INFO  : Successfully done query RDI_DATADIR 
+23:24:05 DEBUG : Logs will be stored at 'D:/Proiect_3/Block_Design/IDE.log'.
+23:24:06 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Proiect_3\Block_Design\temp_xsdb_launch_script.tcl
+23:24:09 INFO  : XSCT server has started successfully.
+23:24:09 INFO  : plnx-install-location is set to ''
+23:24:09 INFO  : Successfully done setting XSCT server connection channel  
+23:24:09 INFO  : Registering command handlers for Vitis TCF services
+23:24:10 INFO  : Platform repository initialization has completed.
+23:24:11 INFO  : Successfully done setting workspace for the tool. 
+23:24:11 INFO  : Successfully done query RDI_DATADIR 
+10:44:53 DEBUG : Logs will be stored at 'D:/Proiect_3/Block_Design/IDE.log'.
+10:44:54 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Proiect_3\Block_Design\temp_xsdb_launch_script.tcl
+10:44:56 INFO  : XSCT server has started successfully.
+10:44:56 INFO  : Successfully done setting XSCT server connection channel  
+10:44:56 INFO  : plnx-install-location is set to ''
+10:44:56 INFO  : Successfully done setting workspace for the tool. 
+10:44:57 INFO  : Platform repository initialization has completed.
+10:45:01 INFO  : Registering command handlers for Vitis TCF services
+10:45:02 INFO  : Successfully done query RDI_DATADIR 
+11:33:28 DEBUG : Logs will be stored at 'D:/Proiect_3/Block_Design/IDE.log'.
+11:33:28 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Proiect_3\Block_Design\temp_xsdb_launch_script.tcl
+11:33:31 INFO  : XSCT server has started successfully.
+11:33:31 INFO  : Successfully done setting XSCT server connection channel  
+11:33:31 INFO  : plnx-install-location is set to ''
+11:33:31 INFO  : Successfully done setting workspace for the tool. 
+11:33:32 INFO  : Registering command handlers for Vitis TCF services
+11:33:32 INFO  : Platform repository initialization has completed.
+11:33:32 INFO  : Successfully done query RDI_DATADIR 

@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Sun Aug 27 18:08:39 2023
+# Process ID: 16068
+# Current directory: D:/Proiect_3/Block_Design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9104 D:\Proiect_3\Block_Design\Block_Design.xpr
+# Log file: D:/Proiect_3/Block_Design/vivado.log
+# Journal file: D:/Proiect_3/Block_Design\vivado.jou
+# Running On: DESKTOP-7P0D6RH, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16836 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Proiect_3/Block_Design/Block_Design.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/Proiect_3/Block_Design/Block_Design.srcs/sources_1/bd/Block_Design/Block_Design.bd}
+open_run synth_1 -name synth_1
+open_hw_manager
+close_hw_manager
+open_run impl_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Proiect_3/Block_Design/Block_Design.srcs/sources_1/bd/Block_Design/Block_Design.bd]
+synth_design -top Block_Design_wrapper -part xc7z020clg400-1 -lint 
+close_design
+launch_simulation
+source Block_Design_TB.tcl
+restart
+run 60 us
+current_wave_config {Untitled 1}
+add_wave {{/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave}} 
+current_wave_config {Untitled 1}
+add_wave {{/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst}} 
+current_wave_config {Untitled 1}
+add_wave {{/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0}} 
+current_wave_config {Untitled 1}
+add_wave {{/Block_Design_TB/DUT/Block_Design_i/microblaze_0}} 
+restart
+run 60 us
+close_sim

@@ -1,0 +1,14 @@
+Vivado Simulator v2023.1.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L microblaze_v11_0_11 -L lmb_v10_v3_0_12 -L lmb_bram_if_cntlr_v4_0_22 -L blk_mem_gen_v8_4_6 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_24 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L lib_pkg_v1_0_2 -L lib_srl_fifo_v1_0_2 -L axi_uartlite_v2_0_32 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_28 -L fifo_generator_v13_2_8 -L axi_data_fifo_v2_1_27 -L axi_crossbar_v2_1_29 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Block_Design_TB_behav xil_defaultlib.Block_Design_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'interrupt' is not connected on this instance [D:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/sim/Block_Design.v:144]
+WARNING: [VRFC 10-5021] port 'interrupt_ack' is not connected on this instance [D:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/sim/Block_Design.v:182]
+WARNING: [VRFC 10-5021] port 'peripheral_reset' is not connected on this instance [D:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/sim/Block_Design.v:322]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [D:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/sim/Block_Design.v:1225]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [D:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/sim/Block_Design.v:1271]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

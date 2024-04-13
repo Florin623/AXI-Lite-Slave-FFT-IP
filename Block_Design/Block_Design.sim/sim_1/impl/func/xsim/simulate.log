@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance Block_Design_TB.DUT.Block_Design_i.clk_wiz_0.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance Block_Design_TB.DUT.Block_Design_i.clk_wiz_0.inst.mmcm_adv_inst 
+$stop called at time : 19995 ns : File "D:/Proiect_3/Block_Design/Block_Design.srcs/sim_1/new/Block_Design_TB.v" Line 29

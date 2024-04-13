@@ -1,0 +1,55 @@
+#include "stdio.h"
+#include "platform.h"
+#include "xil_printf.h"
+#include "xuartlite.h"
+#include "FFT_8_Points_IP.h"
+#include "xparameters.h"
+#include "xil_io.h"
+
+//#define uart_id XPAR_UARTLITE_0_DEVICE_ID
+
+int main() {
+	//XUartLite uart;
+	//XUartLite_Initialize(&uart, uart_id);
+	print("Let's go!\n\r");
+    init_platform();
+
+    int x0_r;
+    int x0_i;
+    int x1_r;
+    int x1_i;
+    int x2_r;
+    int x2_i;
+    int x3_r;
+    int x3_i;
+    int x4_r;
+    int x4_i;
+    int x5_r;
+    int x5_i;
+    int x6_r;
+    int x6_i;
+    int x7_r;
+    int x7_i;
+
+    x0_r = ;
+    x0_i = ;
+    x1_r = ;
+    x1_i = ;
+    x2_r = ;
+    x2_i = ;
+    x3_r = ;
+    x3_i = ;
+    x4_r = ;
+    x4_i = ;
+    x5_r = ;
+    x5_i = ;
+    x6_r = ;
+    x6_i = ;
+    x7_r = ;
+    x7_i = ;
+
+    print("Hello World\n\r");
+    print("Successfully ran Hello World application");
+    cleanup_platform();
+    return 0;
+}

@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Block_Design_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Block_Design_TB" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="59.995001 us"></ZoomEndTime>
+      <Cursor1Time time="59.995000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="239"></NameColumnWidth>
+      <ValueColumnWidth column_width="269"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/Block_Design_TB/reset_0" type="logic">
+      <obj_property name="ElementShortName">reset_0</obj_property>
+      <obj_property name="ObjectShortName">reset_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Block_Design_TB/sys_clock" type="logic">
+      <obj_property name="ElementShortName">sys_clock</obj_property>
+      <obj_property name="ObjectShortName">sys_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Block_Design_TB/uart_rtl_rxd" type="logic">
+      <obj_property name="ElementShortName">uart_rtl_rxd</obj_property>
+      <obj_property name="ObjectShortName">uart_rtl_rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Block_Design_TB/uart_rtl_txd" type="logic">
+      <obj_property name="ElementShortName">uart_rtl_txd</obj_property>
+      <obj_property name="ObjectShortName">uart_rtl_txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="group506" type="group">
+      <obj_property name="label">FFT_Slave</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x0_r" type="array">
+         <obj_property name="ElementShortName">x0_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x0_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x0_i" type="array">
+         <obj_property name="ElementShortName">x0_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x0_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x1_r" type="array">
+         <obj_property name="ElementShortName">x1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x1_i" type="array">
+         <obj_property name="ElementShortName">x1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x2_r" type="array">
+         <obj_property name="ElementShortName">x2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x2_i" type="array">
+         <obj_property name="ElementShortName">x2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x3_r" type="array">
+         <obj_property name="ElementShortName">x3_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x3_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x3_i" type="array">
+         <obj_property name="ElementShortName">x3_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x3_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x4_r" type="array">
+         <obj_property name="ElementShortName">x4_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x4_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x4_i" type="array">
+         <obj_property name="ElementShortName">x4_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x4_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x5_r" type="array">
+         <obj_property name="ElementShortName">x5_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x5_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x5_i" type="array">
+         <obj_property name="ElementShortName">x5_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x5_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x6_r" type="array">
+         <obj_property name="ElementShortName">x6_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x6_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x6_i" type="array">
+         <obj_property name="ElementShortName">x6_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x6_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x7_r" type="array">
+         <obj_property name="ElementShortName">x7_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x7_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/x7_i" type="array">
+         <obj_property name="ElementShortName">x7_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x7_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X0_r" type="array">
+         <obj_property name="ElementShortName">X0_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X0_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X0_i" type="array">
+         <obj_property name="ElementShortName">X0_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X0_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X1_r" type="array">
+         <obj_property name="ElementShortName">X1_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X1_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X1_i" type="array">
+         <obj_property name="ElementShortName">X1_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X1_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X2_r" type="array">
+         <obj_property name="ElementShortName">X2_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X2_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X2_i" type="array">
+         <obj_property name="ElementShortName">X2_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X2_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X3_r" type="array">
+         <obj_property name="ElementShortName">X3_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X3_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X3_i" type="array">
+         <obj_property name="ElementShortName">X3_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X3_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X4_r" type="array">
+         <obj_property name="ElementShortName">X4_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X4_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X4_i" type="array">
+         <obj_property name="ElementShortName">X4_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X4_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X5_r" type="array">
+         <obj_property name="ElementShortName">X5_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X5_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X5_i" type="array">
+         <obj_property name="ElementShortName">X5_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X5_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X6_r" type="array">
+         <obj_property name="ElementShortName">X6_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X6_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X6_i" type="array">
+         <obj_property name="ElementShortName">X6_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X6_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X7_r" type="array">
+         <obj_property name="ElementShortName">X7_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X7_r[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/X7_i" type="array">
+         <obj_property name="ElementShortName">X7_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">X7_i[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group440" type="group">
+      <obj_property name="label">FFT_8_Points_IP_S100_AXI</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_ACLK" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_ARESETN" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_AWADDR" type="array">
+         <obj_property name="ElementShortName">S_AXI_AWADDR[6:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWADDR[6:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_AWPROT" type="array">
+         <obj_property name="ElementShortName">S_AXI_AWPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWPROT[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_AWVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_AWREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_WDATA" type="array">
+         <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_WSTRB" type="array">
+         <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_WVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_WREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_BRESP" type="array">
+         <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_BVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_BREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_ARADDR" type="array">
+         <obj_property name="ElementShortName">S_AXI_ARADDR[6:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARADDR[6:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_ARPROT" type="array">
+         <obj_property name="ElementShortName">S_AXI_ARPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARPROT[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_ARVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_ARREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_RDATA" type="array">
+         <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_RRESP" type="array">
+         <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_RVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/S_AXI_RREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/axi_awaddr" type="array">
+         <obj_property name="ElementShortName">axi_awaddr[6:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_awaddr[6:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/axi_awready" type="logic">
+         <obj_property name="ElementShortName">axi_awready</obj_property>
+         <obj_property name="ObjectShortName">axi_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/axi_wready" type="logic">
+         <obj_property name="ElementShortName">axi_wready</obj_property>
+         <obj_property name="ObjectShortName">axi_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/axi_bresp" type="array">
+         <obj_property name="ElementShortName">axi_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_bresp[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/axi_bvalid" type="logic">
+         <obj_property name="ElementShortName">axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">axi_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/axi_araddr" type="array">
+         <obj_property name="ElementShortName">axi_araddr[6:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_araddr[6:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/axi_arready" type="logic">
+         <obj_property name="ElementShortName">axi_arready</obj_property>
+         <obj_property name="ObjectShortName">axi_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/axi_rdata" type="array">
+         <obj_property name="ElementShortName">axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_rdata[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/axi_rresp" type="array">
+         <obj_property name="ElementShortName">axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_rresp[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/axi_rvalid" type="logic">
+         <obj_property name="ElementShortName">axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg0" type="array">
+         <obj_property name="ElementShortName">slv_reg0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg0[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg1" type="array">
+         <obj_property name="ElementShortName">slv_reg1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg1[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg2" type="array">
+         <obj_property name="ElementShortName">slv_reg2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg2[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg3" type="array">
+         <obj_property name="ElementShortName">slv_reg3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg3[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg4" type="array">
+         <obj_property name="ElementShortName">slv_reg4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg4[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg5" type="array">
+         <obj_property name="ElementShortName">slv_reg5[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg5[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg6" type="array">
+         <obj_property name="ElementShortName">slv_reg6[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg6[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg7" type="array">
+         <obj_property name="ElementShortName">slv_reg7[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg7[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg8" type="array">
+         <obj_property name="ElementShortName">slv_reg8[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg8[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg9" type="array">
+         <obj_property name="ElementShortName">slv_reg9[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg9[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg10" type="array">
+         <obj_property name="ElementShortName">slv_reg10[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg10[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg11" type="array">
+         <obj_property name="ElementShortName">slv_reg11[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg11[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg12" type="array">
+         <obj_property name="ElementShortName">slv_reg12[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg12[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg13" type="array">
+         <obj_property name="ElementShortName">slv_reg13[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg13[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg14" type="array">
+         <obj_property name="ElementShortName">slv_reg14[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg14[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg15" type="array">
+         <obj_property name="ElementShortName">slv_reg15[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg15[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg16" type="array">
+         <obj_property name="ElementShortName">slv_reg16[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg16[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg17" type="array">
+         <obj_property name="ElementShortName">slv_reg17[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg17[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg18" type="array">
+         <obj_property name="ElementShortName">slv_reg18[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg18[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg19" type="array">
+         <obj_property name="ElementShortName">slv_reg19[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg19[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg20" type="array">
+         <obj_property name="ElementShortName">slv_reg20[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg20[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg21" type="array">
+         <obj_property name="ElementShortName">slv_reg21[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg21[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg22" type="array">
+         <obj_property name="ElementShortName">slv_reg22[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg22[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg23" type="array">
+         <obj_property name="ElementShortName">slv_reg23[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg23[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg24" type="array">
+         <obj_property name="ElementShortName">slv_reg24[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg24[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg25" type="array">
+         <obj_property name="ElementShortName">slv_reg25[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg25[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg26" type="array">
+         <obj_property name="ElementShortName">slv_reg26[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg26[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg27" type="array">
+         <obj_property name="ElementShortName">slv_reg27[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg27[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg28" type="array">
+         <obj_property name="ElementShortName">slv_reg28[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg28[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg29" type="array">
+         <obj_property name="ElementShortName">slv_reg29[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg29[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg30" type="array">
+         <obj_property name="ElementShortName">slv_reg30[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg30[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg31" type="array">
+         <obj_property name="ElementShortName">slv_reg31[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_reg31[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg_rden" type="logic">
+         <obj_property name="ElementShortName">slv_reg_rden</obj_property>
+         <obj_property name="ObjectShortName">slv_reg_rden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/slv_reg_wren" type="logic">
+         <obj_property name="ElementShortName">slv_reg_wren</obj_property>
+         <obj_property name="ObjectShortName">slv_reg_wren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/reg_data_out" type="array">
+         <obj_property name="ElementShortName">reg_data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_data_out[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/byte_index" type="array">
+         <obj_property name="ElementShortName">byte_index[31:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_index[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/aw_en" type="logic">
+         <obj_property name="ElementShortName">aw_en</obj_property>
+         <obj_property name="ObjectShortName">aw_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X0_r_wire" type="array">
+         <obj_property name="ElementShortName">X0_r_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X0_r_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X0_i_wire" type="array">
+         <obj_property name="ElementShortName">X0_i_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X0_i_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X1_r_wire" type="array">
+         <obj_property name="ElementShortName">X1_r_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X1_r_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X1_i_wire" type="array">
+         <obj_property name="ElementShortName">X1_i_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X1_i_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X2_r_wire" type="array">
+         <obj_property name="ElementShortName">X2_r_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X2_r_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X2_i_wire" type="array">
+         <obj_property name="ElementShortName">X2_i_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X2_i_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X3_r_wire" type="array">
+         <obj_property name="ElementShortName">X3_r_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X3_r_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X3_i_wire" type="array">
+         <obj_property name="ElementShortName">X3_i_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X3_i_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X4_r_wire" type="array">
+         <obj_property name="ElementShortName">X4_r_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X4_r_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X4_i_wire" type="array">
+         <obj_property name="ElementShortName">X4_i_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X4_i_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X5_r_wire" type="array">
+         <obj_property name="ElementShortName">X5_r_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X5_r_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X5_i_wire" type="array">
+         <obj_property name="ElementShortName">X5_i_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X5_i_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X6_r_wire" type="array">
+         <obj_property name="ElementShortName">X6_r_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X6_r_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X6_i_wire" type="array">
+         <obj_property name="ElementShortName">X6_i_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X6_i_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X7_r_wire" type="array">
+         <obj_property name="ElementShortName">X7_r_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X7_r_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/X7_i_wire" type="array">
+         <obj_property name="ElementShortName">X7_i_wire[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X7_i_wire[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/C_S_AXI_DATA_WIDTH" type="array">
+         <obj_property name="ElementShortName">C_S_AXI_DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_S_AXI_DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/C_S_AXI_ADDR_WIDTH" type="array">
+         <obj_property name="ElementShortName">C_S_AXI_ADDR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_S_AXI_ADDR_WIDTH[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/ADDR_LSB" type="array">
+         <obj_property name="ElementShortName">ADDR_LSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR_LSB[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/OPT_MEM_ADDR_BITS" type="array">
+         <obj_property name="ElementShortName">OPT_MEM_ADDR_BITS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OPT_MEM_ADDR_BITS[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group351" type="group">
+      <obj_property name="label">FFT_8_Points_IP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_awaddr" type="array">
+         <obj_property name="ElementShortName">s00_axi_awaddr[6:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_awaddr[6:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_awprot" type="array">
+         <obj_property name="ElementShortName">s00_axi_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_awprot[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_awvalid" type="logic">
+         <obj_property name="ElementShortName">s00_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_awready" type="logic">
+         <obj_property name="ElementShortName">s00_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_wdata" type="array">
+         <obj_property name="ElementShortName">s00_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_wdata[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_wstrb" type="array">
+         <obj_property name="ElementShortName">s00_axi_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_wstrb[3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_wvalid" type="logic">
+         <obj_property name="ElementShortName">s00_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_wready" type="logic">
+         <obj_property name="ElementShortName">s00_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_bresp" type="array">
+         <obj_property name="ElementShortName">s00_axi_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_bresp[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_bvalid" type="logic">
+         <obj_property name="ElementShortName">s00_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_bready" type="logic">
+         <obj_property name="ElementShortName">s00_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_araddr" type="array">
+         <obj_property name="ElementShortName">s00_axi_araddr[6:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_araddr[6:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_arprot" type="array">
+         <obj_property name="ElementShortName">s00_axi_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_arprot[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_arvalid" type="logic">
+         <obj_property name="ElementShortName">s00_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_arready" type="logic">
+         <obj_property name="ElementShortName">s00_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_rdata" type="array">
+         <obj_property name="ElementShortName">s00_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_rdata[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_rresp" type="array">
+         <obj_property name="ElementShortName">s00_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_rresp[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_rvalid" type="logic">
+         <obj_property name="ElementShortName">s00_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_rready" type="logic">
+         <obj_property name="ElementShortName">s00_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_aclk" type="logic">
+         <obj_property name="ElementShortName">s00_axi_aclk</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_aclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/s00_axi_aresetn" type="logic">
+         <obj_property name="ElementShortName">s00_axi_aresetn</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_aresetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/FFT_8_Points_IP_0/S00_AXI" type="protoinst">
+         <obj_property name="ElementShortName">S00_AXI</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group586" type="group">
+      <obj_property name="label">Microblaze</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Clk" type="logic">
+         <obj_property name="ElementShortName">Clk</obj_property>
+         <obj_property name="ObjectShortName">Clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Reset" type="logic">
+         <obj_property name="ElementShortName">Reset</obj_property>
+         <obj_property name="ObjectShortName">Reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Interrupt" type="logic">
+         <obj_property name="ElementShortName">Interrupt</obj_property>
+         <obj_property name="ObjectShortName">Interrupt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Interrupt_Address" type="array">
+         <obj_property name="ElementShortName">Interrupt_Address[0:31]</obj_property>
+         <obj_property name="ObjectShortName">Interrupt_Address[0:31]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Interrupt_Ack" type="array">
+         <obj_property name="ElementShortName">Interrupt_Ack[0:1]</obj_property>
+         <obj_property name="ObjectShortName">Interrupt_Ack[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Instr_Addr" type="array">
+         <obj_property name="ElementShortName">Instr_Addr[0:31]</obj_property>
+         <obj_property name="ObjectShortName">Instr_Addr[0:31]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Instr" type="array">
+         <obj_property name="ElementShortName">Instr[0:31]</obj_property>
+         <obj_property name="ObjectShortName">Instr[0:31]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/IFetch" type="logic">
+         <obj_property name="ElementShortName">IFetch</obj_property>
+         <obj_property name="ObjectShortName">IFetch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/I_AS" type="logic">
+         <obj_property name="ElementShortName">I_AS</obj_property>
+         <obj_property name="ObjectShortName">I_AS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/IReady" type="logic">
+         <obj_property name="ElementShortName">IReady</obj_property>
+         <obj_property name="ObjectShortName">IReady</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/IWAIT" type="logic">
+         <obj_property name="ElementShortName">IWAIT</obj_property>
+         <obj_property name="ObjectShortName">IWAIT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/ICE" type="logic">
+         <obj_property name="ElementShortName">ICE</obj_property>
+         <obj_property name="ObjectShortName">ICE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/IUE" type="logic">
+         <obj_property name="ElementShortName">IUE</obj_property>
+         <obj_property name="ObjectShortName">IUE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Data_Addr" type="array">
+         <obj_property name="ElementShortName">Data_Addr[0:31]</obj_property>
+         <obj_property name="ObjectShortName">Data_Addr[0:31]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Data_Read" type="array">
+         <obj_property name="ElementShortName">Data_Read[0:31]</obj_property>
+         <obj_property name="ObjectShortName">Data_Read[0:31]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Data_Write" type="array">
+         <obj_property name="ElementShortName">Data_Write[0:31]</obj_property>
+         <obj_property name="ObjectShortName">Data_Write[0:31]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/D_AS" type="logic">
+         <obj_property name="ElementShortName">D_AS</obj_property>
+         <obj_property name="ObjectShortName">D_AS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Read_Strobe" type="logic">
+         <obj_property name="ElementShortName">Read_Strobe</obj_property>
+         <obj_property name="ObjectShortName">Read_Strobe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Write_Strobe" type="logic">
+         <obj_property name="ElementShortName">Write_Strobe</obj_property>
+         <obj_property name="ObjectShortName">Write_Strobe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/DReady" type="logic">
+         <obj_property name="ElementShortName">DReady</obj_property>
+         <obj_property name="ObjectShortName">DReady</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/DWait" type="logic">
+         <obj_property name="ElementShortName">DWait</obj_property>
+         <obj_property name="ObjectShortName">DWait</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/DCE" type="logic">
+         <obj_property name="ElementShortName">DCE</obj_property>
+         <obj_property name="ObjectShortName">DCE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/DUE" type="logic">
+         <obj_property name="ElementShortName">DUE</obj_property>
+         <obj_property name="ObjectShortName">DUE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Byte_Enable" type="array">
+         <obj_property name="ElementShortName">Byte_Enable[0:3]</obj_property>
+         <obj_property name="ObjectShortName">Byte_Enable[0:3]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_AWADDR" type="array">
+         <obj_property name="ElementShortName">M_AXI_DP_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_AWADDR[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_AWPROT" type="array">
+         <obj_property name="ElementShortName">M_AXI_DP_AWPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_AWPROT[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_AWVALID" type="logic">
+         <obj_property name="ElementShortName">M_AXI_DP_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_AWREADY" type="logic">
+         <obj_property name="ElementShortName">M_AXI_DP_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_WDATA" type="array">
+         <obj_property name="ElementShortName">M_AXI_DP_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_WDATA[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_WSTRB" type="array">
+         <obj_property name="ElementShortName">M_AXI_DP_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_WSTRB[3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_WVALID" type="logic">
+         <obj_property name="ElementShortName">M_AXI_DP_WVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_WREADY" type="logic">
+         <obj_property name="ElementShortName">M_AXI_DP_WREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_BRESP" type="array">
+         <obj_property name="ElementShortName">M_AXI_DP_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_BRESP[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_BVALID" type="logic">
+         <obj_property name="ElementShortName">M_AXI_DP_BVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_BREADY" type="logic">
+         <obj_property name="ElementShortName">M_AXI_DP_BREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_ARADDR" type="array">
+         <obj_property name="ElementShortName">M_AXI_DP_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_ARADDR[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_ARPROT" type="array">
+         <obj_property name="ElementShortName">M_AXI_DP_ARPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_ARPROT[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_ARVALID" type="logic">
+         <obj_property name="ElementShortName">M_AXI_DP_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_ARREADY" type="logic">
+         <obj_property name="ElementShortName">M_AXI_DP_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_RDATA" type="array">
+         <obj_property name="ElementShortName">M_AXI_DP_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_RDATA[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_RRESP" type="array">
+         <obj_property name="ElementShortName">M_AXI_DP_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_RRESP[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_RVALID" type="logic">
+         <obj_property name="ElementShortName">M_AXI_DP_RVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP_RREADY" type="logic">
+         <obj_property name="ElementShortName">M_AXI_DP_RREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_RREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Dbg_Clk" type="logic">
+         <obj_property name="ElementShortName">Dbg_Clk</obj_property>
+         <obj_property name="ObjectShortName">Dbg_Clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Dbg_TDI" type="logic">
+         <obj_property name="ElementShortName">Dbg_TDI</obj_property>
+         <obj_property name="ObjectShortName">Dbg_TDI</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Dbg_TDO" type="logic">
+         <obj_property name="ElementShortName">Dbg_TDO</obj_property>
+         <obj_property name="ObjectShortName">Dbg_TDO</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Dbg_Reg_En" type="array">
+         <obj_property name="ElementShortName">Dbg_Reg_En[0:7]</obj_property>
+         <obj_property name="ObjectShortName">Dbg_Reg_En[0:7]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Dbg_Shift" type="logic">
+         <obj_property name="ElementShortName">Dbg_Shift</obj_property>
+         <obj_property name="ObjectShortName">Dbg_Shift</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Dbg_Capture" type="logic">
+         <obj_property name="ElementShortName">Dbg_Capture</obj_property>
+         <obj_property name="ObjectShortName">Dbg_Capture</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Dbg_Update" type="logic">
+         <obj_property name="ElementShortName">Dbg_Update</obj_property>
+         <obj_property name="ObjectShortName">Dbg_Update</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Debug_Rst" type="logic">
+         <obj_property name="ElementShortName">Debug_Rst</obj_property>
+         <obj_property name="ObjectShortName">Debug_Rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/Dbg_Disable" type="logic">
+         <obj_property name="ElementShortName">Dbg_Disable</obj_property>
+         <obj_property name="ObjectShortName">Dbg_Disable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Block_Design_TB/DUT/Block_Design_i/microblaze_0/M_AXI_DP" type="protoinst">
+         <obj_property name="ElementShortName">M_AXI_DP</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

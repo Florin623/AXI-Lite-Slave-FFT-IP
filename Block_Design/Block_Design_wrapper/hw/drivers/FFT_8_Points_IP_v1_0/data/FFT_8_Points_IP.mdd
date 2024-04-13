@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER FFT_8_Points_IP
+	OPTION supported_peripherals = (FFT_8_Points_IP);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = FFT_8_Points_IP;
+END DRIVER

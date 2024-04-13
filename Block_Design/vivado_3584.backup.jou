@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Sun Aug 27 17:57:27 2023
+# Process ID: 3584
+# Current directory: D:/Proiect_3/Block_Design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3252 D:\Proiect_3\Block_Design\Block_Design.xpr
+# Log file: D:/Proiect_3/Block_Design/vivado.log
+# Journal file: D:/Proiect_3/Block_Design\vivado.jou
+# Running On: DESKTOP-7P0D6RH, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16836 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Proiect_3/Block_Design/Block_Design.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/Proiect_3/Block_Design/Block_Design.srcs/sources_1/bd/Block_Design/Block_Design.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:FFT_8_Points_IP:1.0 FFT_8_Points_IP_1
+endgroup
+delete_bd_objs [get_bd_cells FFT_8_Points_IP_1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_uartlite:2.0 axi_uartlite_1
+endgroup
+delete_bd_objs [get_bd_cells axi_uartlite_1]
+undo
+undo
+undo
+undo
+open_run impl_1
+close_design

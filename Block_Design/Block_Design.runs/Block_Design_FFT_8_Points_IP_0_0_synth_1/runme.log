@@ -1,0 +1,280 @@
+
+*** Running vivado
+    with args -log Block_Design_FFT_8_Points_IP_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Block_Design_FFT_8_Points_IP_0_0.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1.1 (64-bit)
+  **** SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+  **** IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+  **** SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source Block_Design_FFT_8_Points_IP_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Proiect_3/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2023.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Block_Design_FFT_8_Points_IP_0_0
+Command: synth_design -top Block_Design_FFT_8_Points_IP_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10436
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1302.367 ; gain = 409.754
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Block_Design_FFT_8_Points_IP_0_0' [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ip/Block_Design_FFT_8_Points_IP_0_0/synth/Block_Design_FFT_8_Points_IP_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'FFT_8_Points_IP_v1_0' [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0.v:4]
+INFO: [Synth 8-6157] synthesizing module 'FFT_8_Points_IP_v1_0_S00_AXI' [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-226] default block is never used [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:287]
+INFO: [Synth 8-226] default block is never used [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:669]
+INFO: [Synth 8-6157] synthesizing module 'FFT_8_Points' [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/FFT_8_Points.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Stage_1' [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/Stage_1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Stage_1' (0#1) [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/Stage_1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Stage_2' [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/Stage_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Stage_2' (0#1) [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/Stage_2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Stage_3' [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/Stage_3.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Const_Mul_With_07071' [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/Const_Mul_With_07071.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Const_Mul_With_07071' (0#1) [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/Const_Mul_With_07071.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Stage_3' (0#1) [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/Stage_3.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'FFT_8_Points' (0#1) [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/FFT_8_Points.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'FFT_8_Points_IP_v1_0_S00_AXI' (0#1) [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'FFT_8_Points_IP_v1_0' (0#1) [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Block_Design_FFT_8_Points_IP_0_0' (0#1) [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ip/Block_Design_FFT_8_Points_IP_0_0/synth/Block_Design_FFT_8_Points_IP_0_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg16_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:267]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg17_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:268]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg18_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:269]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg19_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:270]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg20_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:271]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg21_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:272]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg22_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:273]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg23_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:274]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg24_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:275]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg25_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:276]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg26_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:277]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg27_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:278]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg28_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:279]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg29_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:280]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg30_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:281]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg31_reg was removed.  [d:/Proiect_3/Block_Design/Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v:282]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module FFT_8_Points_IP_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module FFT_8_Points_IP_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module FFT_8_Points_IP_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module FFT_8_Points_IP_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module FFT_8_Points_IP_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module FFT_8_Points_IP_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1412.270 ; gain = 519.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1412.270 ; gain = 519.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1412.270 ; gain = 519.656
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1412.270 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1503.660 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1503.660 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/stage_3/X1_r_sqrt_part' (Const_Mul_With_07071) to 'inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/stage_3/X5_r_sqrt_part'
+INFO: [Synth 8-223] decloning instance 'inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/stage_3/X1_i_sqrt_part' (Const_Mul_With_07071) to 'inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/stage_3/X5_i_sqrt_part'
+INFO: [Synth 8-223] decloning instance 'inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/stage_3/X3_r_sqrt_part' (Const_Mul_With_07071) to 'inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/stage_3/X7_r_sqrt_part'
+INFO: [Synth 8-223] decloning instance 'inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/stage_3/X3_i_sqrt_part' (Const_Mul_With_07071) to 'inst/FFT_8_Points_IP_v1_0_S00_AXI_inst/FFT_Slave/stage_3/X7_i_sqrt_part'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 26    
+	   3 Input   16 Bit       Adders := 26    
+	   5 Input   16 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 17    
+	               16 Bit    Registers := 48    
+	                7 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 16    
+	  32 Input   32 Bit        Muxes := 16    
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module FFT_8_Points_IP_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module FFT_8_Points_IP_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module FFT_8_Points_IP_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module FFT_8_Points_IP_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module FFT_8_Points_IP_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module FFT_8_Points_IP_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |   240|
+|2     |LUT1   |     1|
+|3     |LUT2   |   849|
+|4     |LUT3   |    81|
+|5     |LUT4   |   156|
+|6     |LUT5   |    16|
+|7     |LUT6   |   254|
+|8     |MUXF7  |    80|
+|9     |FDRE   |  1329|
+|10    |FDSE   |     1|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1503.660 ; gain = 611.047
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1503.660 ; gain = 519.656
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1503.660 ; gain = 611.047
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1503.660 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 320 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1503.660 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 5ebbad07
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1503.660 ; gain = 1018.445
+INFO: [Common 17-1381] The checkpoint 'D:/Proiect_3/Block_Design/Block_Design.runs/Block_Design_FFT_8_Points_IP_0_0_synth_1/Block_Design_FFT_8_Points_IP_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP Block_Design_FFT_8_Points_IP_0_0, cache-ID = ecd4b25ae9af0941
+INFO: [Coretcl 2-1174] Renamed 10 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/Proiect_3/Block_Design/Block_Design.runs/Block_Design_FFT_8_Points_IP_0_0_synth_1/Block_Design_FFT_8_Points_IP_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Block_Design_FFT_8_Points_IP_0_0_utilization_synth.rpt -pb Block_Design_FFT_8_Points_IP_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 25 01:49:28 2023...

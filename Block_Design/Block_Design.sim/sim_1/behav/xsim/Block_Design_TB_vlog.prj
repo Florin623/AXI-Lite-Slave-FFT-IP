@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Block_Design.gen/sources_1/bd/Block_Design/ipshared/30ef" --include "../../../../Block_Design.gen/sources_1/bd/Block_Design/ipshared/ec67/hdl" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/ip/Block_Design_clk_wiz_0_0/Block_Design_clk_wiz_0_0_clk_wiz.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/ip/Block_Design_clk_wiz_0_0/Block_Design_clk_wiz_0_0.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/ip/Block_Design_lmb_bram_0/sim/Block_Design_lmb_bram_0.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0_S00_AXI.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/hdl/FFT_8_Points_IP_v1_0.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/Const_Mul_With_07071.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/FFT_8_Points.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/Stage_1.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/Stage_2.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/ipshared/bf17/src/Stage_3.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/ip/Block_Design_FFT_8_Points_IP_0_0/sim/Block_Design_FFT_8_Points_IP_0_0.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/ip/Block_Design_xbar_1/sim/Block_Design_xbar_1.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/sim/Block_Design.v" \
+"../../../../Block_Design.gen/sources_1/bd/Block_Design/hdl/Block_Design_wrapper.v" \
+"../../../../Block_Design.srcs/sim_1/new/Block_Design_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

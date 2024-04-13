@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FFT_8_Points.srcs/sources_1/new/Const_Mul_With_07071.v" \
+"../../../../FFT_8_Points.srcs/sources_1/new/FFT_8_Points.v" \
+"../../../../FFT_8_Points.srcs/sources_1/new/Stage_1.v" \
+"../../../../FFT_8_Points.srcs/sources_1/new/Stage_2.v" \
+"../../../../FFT_8_Points.srcs/sources_1/new/Stage_3.v" \
+"../../../../FFT_8_Points.srcs/sim_1/new/FFT_8_Points_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

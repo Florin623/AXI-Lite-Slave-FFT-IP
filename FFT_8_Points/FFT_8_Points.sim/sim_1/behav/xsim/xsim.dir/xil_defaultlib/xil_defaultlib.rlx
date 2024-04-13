@@ -1,0 +1,11 @@
+0.7
+2020.2
+Jun 16 2023
+19:55:58
+D:/Digital/FFT/FFT_8_Points/FFT_8_Points.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
+D:/Digital/FFT/FFT_8_Points/FFT_8_Points.srcs/sim_1/new/FFT_8_Points_TB.v,1708275333,verilog,,,,FFT_8_Points_TB,,,,,,,,
+D:/Digital/FFT/FFT_8_Points/FFT_8_Points.srcs/sources_1/new/Const_Mul_With_07071.v,1708260873,verilog,,D:/Digital/FFT/FFT_8_Points/FFT_8_Points.srcs/sources_1/new/FFT_8_Points.v,,Const_Mul_With_07071,,,,,,,,
+D:/Digital/FFT/FFT_8_Points/FFT_8_Points.srcs/sources_1/new/FFT_8_Points.v,1708260993,verilog,,D:/Digital/FFT/FFT_8_Points/FFT_8_Points.srcs/sources_1/new/Stage_1.v,,FFT_8_Points,,,,,,,,
+D:/Digital/FFT/FFT_8_Points/FFT_8_Points.srcs/sources_1/new/Stage_1.v,1708260519,verilog,,D:/Digital/FFT/FFT_8_Points/FFT_8_Points.srcs/sources_1/new/Stage_2.v,,Stage_1,,,,,,,,
+D:/Digital/FFT/FFT_8_Points/FFT_8_Points.srcs/sources_1/new/Stage_2.v,1708260634,verilog,,D:/Digital/FFT/FFT_8_Points/FFT_8_Points.srcs/sources_1/new/Stage_3.v,,Stage_2,,,,,,,,
+D:/Digital/FFT/FFT_8_Points/FFT_8_Points.srcs/sources_1/new/Stage_3.v,1708260825,verilog,,D:/Digital/FFT/FFT_8_Points/FFT_8_Points.srcs/sim_1/new/FFT_8_Points_TB.v,,Stage_3,,,,,,,,
